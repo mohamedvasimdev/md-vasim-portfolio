@@ -41,7 +41,7 @@ const Recentwork = () => {
                     {projectData.map(projectValue => {
                         return <>
                             <div className="cardDetails">
-                                <img src={`/src/assets/images/${projectValue.images}`} width="100%" alt="images" />
+                                <img src={`/md-vasim-portfolio/src/assets/images/${projectValue.images}`} width="100%" alt="images" />
                                 <div className="porjectDetails">
                                     <h4 className="cardName">{projectValue.title}</h4>
                                     <p className="cardContent">{projectValue.content}</p>

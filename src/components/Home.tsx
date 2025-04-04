@@ -5,7 +5,7 @@ const Home = () => {
         <div id="home" className="home-section">
             <div className="profile img">
                 <div className='bg-design'></div>
-                <img src="public/vite.svg" />
+                <img src="/images/profile-img.jpg" />
             </div>
             <div className="profile content">
                 <h1>I'm Mohamed Vasim. <span>Web Developer</span></h1>

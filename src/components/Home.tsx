@@ -9,9 +9,9 @@ const Home = () => {
             </div>
             <div className="profile content">
                 <h1>I'm Mohamed Vasim. <span>Web Developer</span></h1>
-                <p>I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, 
-                I am passionate about building excellent software that improves the lives of those around me</p>
-                <Button label='About Me' href="about" />
+                <p>With strong experience in React.js and Magento. I specialize in building clean, responsive, and high-performance user interfaces. 
+                    I’m passionate about creating seamless user experiences and always stay updated with the latest trends in web development.</p>
+                <Button label='Resume' href="/mohamed-vasim-resume.pdf" />
                 </div>
         </div>
     )

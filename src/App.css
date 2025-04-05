@@ -6,6 +6,13 @@ body {
   color: #fff;
 }
 
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -36,12 +43,13 @@ header {
 .home-section {
   display: flex;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 70px;
+  margin-bottom: 70px;
 }
 
 .profile.img {
   width: 40%;
-  text-align: center;
+  text-align: left;
   position: relative;
 }
 
@@ -56,7 +64,7 @@ header {
 }
 
 .profile.img img {
-  width: 70%;
+  width: 80%;
   box-shadow: 0 0 7px rgba(0,0,0,.9);
   border-radius: 30px;
   z-index: 2;
@@ -102,10 +110,10 @@ header {
 
 .bg-design {
   background: #FFB400;
-  width: 70%;
+  width: 80%;
   height: 100%;
   position: absolute;
-  left: 69px;
+  left: -12px;
   border-radius: 30px;
   top: 9px;
 }
@@ -115,6 +123,7 @@ header {
   text-align: center;
   font-size: 3rem;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .highligh-color {
@@ -132,6 +141,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.skills-section {
+  margin-bottom: 30px;
 }
 
 .progress-line {
@@ -152,6 +165,15 @@ header {
 .expertise-section {
   display: flex;
   justify-content: center;
+  margin: 4% 0 50px;
+}
+
+.experience-expertise-section {
+    width: 50%;
+}
+
+.education-experience-section {
+    width: 50%;
 }
 
 .detail-box {
@@ -206,6 +228,7 @@ header {
   text-align: center;
   font-size: 1.5rem;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .popup {
@@ -254,10 +277,6 @@ header {
   margin-bottom: 3%;
 }
 
-.skills-section {
-  margin: 20px 6%;
-}
-
 .skillWrapper {
   display: flex;
   flex-direction: row;
@@ -288,14 +307,18 @@ header {
 .card {
   display: flex;
   justify-content: flex-start;
-  margin: 20px 6%;
+  margin: 20px 0 70px;
   gap: 30px;
   flex-wrap: wrap;
 }
 
 .card .cardDetails {
-  width: 31.6%;
+  width: 31%;
   position: relative;
+}
+
+.cardDetails img {
+  filter: brightness(0.7);
 }
 
 .porjectDetails {

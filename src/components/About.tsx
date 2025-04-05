@@ -5,12 +5,12 @@ const About = () => {
     // const skillName = ['HTML', 'CSS', 'JavaScript']
     // const clipValue = ["0px, 100px, 50px, 50px", "0px, 50px, 40px, 50px", "0px, 90px, 80px, 50px"]
     const skillSet = [
-        {id: 1, skillName: 'HTML', SkillPerentage: 95},
-        {id: 2, skillName: 'CSS', SkillPerentage: 85},
-        {id: 3, skillName: 'JavaScript', SkillPerentage: 80},
-        {id: 4, skillName: 'React JS', SkillPerentage: 80},
-        {id: 4, skillName: 'Magento 2', SkillPerentage: 80},
-        {id: 4, skillName: 'React JS', SkillPerentage: 60}
+        {id: 1, skillName: 'HTML5', SkillPerentage: 95},
+        {id: 2, skillName: 'CSS3', SkillPerentage: 95},
+        {id: 2, skillName: 'LESS', SkillPerentage: 90},
+        {id: 3, skillName: 'JavaScript', SkillPerentage: 70},
+        {id: 4, skillName: 'Magento 2', SkillPerentage: 70},
+        {id: 4, skillName: 'GraphQL', SkillPerentage: 60},
     ]
     return (
         <>

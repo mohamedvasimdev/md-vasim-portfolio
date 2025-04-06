@@ -1,9 +1,6 @@
 import Education from "./Education";
 
 const About = () => {
-    // const skillPercentage = [95, 70, 75];
-    // const skillName = ['HTML', 'CSS', 'JavaScript']
-    // const clipValue = ["0px, 100px, 50px, 50px", "0px, 50px, 40px, 50px", "0px, 90px, 80px, 50px"]
     const skillSet = [
         {id: 1, skillName: 'HTML5', SkillPerentage: 95},
         {id: 2, skillName: 'CSS3', SkillPerentage: 95},

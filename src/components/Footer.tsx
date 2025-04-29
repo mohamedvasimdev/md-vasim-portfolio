@@ -14,7 +14,7 @@ const socialData = [
 ]
 const Footer = () => {
     return <>
-    <footer className="footer">
+    <footer id="contact" className="footer">
         <ul className="socialLinks">
             {socialData.map(value => {
                 return <>

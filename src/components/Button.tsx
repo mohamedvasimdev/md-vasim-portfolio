@@ -6,7 +6,7 @@ interface Props {
 const Button = ({label, href} : Props) => {
     return (
         <>
-            <p className="primary-button"><a href={`${href}`} download target='_blank'>{label}</a></p>
+            <p className="primary-button"><a href={`${href}`} download='resume.pdf' target='_blank'>{label}</a></p>
         </>
     )
 }

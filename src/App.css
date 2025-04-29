@@ -482,17 +482,19 @@ header nav ul li {
   margin: 0 40px;
 }
 .home-section {
-  padding-top: 25px;
-  margin-bottom: 30px;
+  padding-top: 12px;
+  margin-bottom: 50px;
 }
 .profile.content {
   width: 100%;
-  max-width: auto;
+  max-width: none;
+  margin-bottom: 24px;  
 }
 .profile.content h1 {
   font-size: 2rem;
   padding-top: 50px;
   padding-left: 0;
+  margin-top: 0;
 }
 .primary-button {
   margin-top: 35px;
@@ -540,5 +542,8 @@ header nav ul li {
 }
 .socialLinks {
   padding: 10px 0;
+}
+.profile.img {
+  order: 2;
 }
 }

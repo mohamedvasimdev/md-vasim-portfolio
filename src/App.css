@@ -6,13 +6,6 @@ body {
   color: #fff;
 }
 
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -434,11 +427,109 @@ header nav ul li {
   }
 }
 
+@media only screen and (min-width: 765px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
 @media only screen and (max-width: 764px) {
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 12%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+}
   .home-section {
     flex-wrap: wrap;
   }
   .profile.img {
     width: 100%;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  header {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: unset;
+    height: auto;
+    width: 100%;
+  }
+  header nav {
+    padding: 0 10px;
+    width: 100%;
+}
+.menu-icons {
+  font-size: 1.4rem;
+}
+.menuTitle {
+  font-size: 0.6rem;
+}
+
+.bg-design {
+  width: 100%;
+}
+.profile.img img {
+  width: 100%;
+}
+.container {
+  margin: 0 40px;
+}
+.home-section {
+  padding-top: 25px;
+  margin-bottom: 30px;
+}
+.profile.content {
+  width: 100%;
+  max-width: auto;
+}
+.profile.content h1 {
+  font-size: 2rem;
+  padding-top: 50px;
+  padding-left: 0;
+}
+.primary-button {
+  margin-top: 35px;
+}
+.primary-button a {
+  padding: 8px 32px;
+  font-size: 1rem;
+}
+.about-section h1, .recent-work-section h1 {
+  font-size: 2rem;
+}
+.about-section h3 {
+  font-size: 1rem;
+}
+.progressBar .progressBarIndividual {
+  width: 100%;
+  margin-bottom: 3%;
+}
+.expertise-section {
+  flex-wrap: wrap;
+}
+.experience-expertise-section {
+  width: 100%;
+}
+.education-experience-section {
+  width: 100%;
+}
+.detail-box h4 {
+  font-size: 0.8rem;
+}
+.detail-box p {
+  font-size: 0.7rem;
+}
+.card .cardDetails {
+  width: 100%;
+}
+.card {
+  margin: 20px 0 40px;
 }
 }
